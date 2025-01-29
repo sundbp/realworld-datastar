@@ -14,6 +14,7 @@ tasks:
     cmds:
       - go install github.com/go-task/task/v3/cmd/task@latest
       - go install github.com/a-h/templ/cmd/templ@latest
+      - go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest
       - go install github.com/delaneyj/toolbelt/sqlc-gen-zombiezen@latest
       - go install golang.org/x/tools/cmd/goimports@latest
 
